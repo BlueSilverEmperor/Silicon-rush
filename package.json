@@ -1,0 +1,24 @@
+{
+  "name": "axion-document-locker",
+  "version": "1.0.0",
+  "description": "Military-grade client-side and serverless document encryption suite (AES-256-CBC, PBKDF2-SHA256, .docenc)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve public",
+    "dev": "npx serve public",
+    "build": "echo \"Build complete - ready for Vercel deployment\"",
+    "test": "node -e \"console.log('Testing crypto module...'); const c = require('./public/crypto.js'); console.log('Crypto module loaded successfully.');\""
+  },
+  "keywords": [
+    "encryption",
+    "decryption",
+    "aes-256-cbc",
+    "pbkdf2",
+    "docenc",
+    "vercel",
+    "webcrypto",
+    "security"
+  ],
+  "author": "Silicon Rush",
+  "license": "MIT"
+}

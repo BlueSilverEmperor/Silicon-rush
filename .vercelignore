@@ -1,0 +1,17 @@
+# Vercel Deployment Ignore List
+dist/
+build/
+*.exe
+*.spec
+*.pptx
+*.docx
+*.pdf
+__pycache__/
+*.pyc
+*.pyo
+.tmp*
+*.decrypted.*
+*.docenc
+.git/
+.vscode/
+.idea/
